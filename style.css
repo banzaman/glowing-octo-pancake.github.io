@@ -358,6 +358,7 @@
 
 .aboutMe {
   background-color: #1c1a19;
+  padding-top: 120px;
   margin-top: 120px;
   background-image: url("img/bottomImg.png");
   background-repeat: no-repeat;
