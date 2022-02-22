@@ -559,3 +559,18 @@
   border: 1px solid #ff6b00;
   color: #ff6b00;
 }
+
+.timbagano {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 36px;
+  border-top: #52627e 2px solid;
+  padding-top: 20px;
+  color: #52627e;
+  font-size: 25px;
+}
+
+.timbagano i {
+  color: #505f79;
+}
