@@ -1,0 +1,234 @@
+@media (min-width: 996px) {
+    .header {
+      background-color: #3c3a39;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      padding: 24px 72px;
+    }
+  
+    .name {
+      font-family: 'Inter', sans-serif !important;
+      font-size: 20px;
+      font-weight: 700;
+      text-align: center;
+    }
+  
+    .d-flex {
+      display: flex;
+
+    }
+    
+    .menu a {
+      display: none;
+    }
+  
+    .topMenu {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 50%;
+    }
+  
+    .topMenu ul {
+      list-style: none;
+      justify-content: space-around;
+    }
+  
+    .topMenu ul a {
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      width: fit-content;
+      margin: 0 24px;
+    }
+  
+    .mailIcon {
+      margin-left: 33px !important;
+    }
+  
+    .mainContainer {
+      height: 798px;
+      background-image: url('img/Illustration-header.png');
+      background-repeat: no-repeat;
+      background-size: 590px 750px;
+      background-position: right top;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: left;
+    }
+  
+    .socialIcons ul {
+      flex-direction: column;
+      width: 20px;
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .informativeText {
+      margin-left: 89px;
+    }
+  
+    .informativeText h1 {
+      font-size: 72px;
+      margin-bottom: 24px;
+      margin-top: 192px;
+    }
+  
+    .informativeText h2 {
+      font-size: 32px;
+    }
+  
+    .informativeText p {
+      font-size: 20px;
+      margin-bottom: 241px;
+      max-width: 45%;
+      line-height: 32px;
+    }
+  
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+      width: auto;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .work-title {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      width: 100%;
+    }
+  
+    .work-title img {
+      width: 70%;
+      margin-left: 24px;
+    }
+  
+    .buttonProperties {
+      width: 100%;
+      visibility: hidden;
+    }
+  
+    .grid3 div {
+      visibility: hidden;
+    }
+  
+    .grid3:hover {
+      background-image: url('img/line1.png');
+      background-repeat: no-repeat;
+    }
+  
+    .bottom p {
+      color: #f4f5f7;
+      font-size: 20px;
+      margin-bottom: 24px;
+      margin-top: 0;
+    }
+  
+    .always {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 130px 0px;
+      height: 596px;
+    }
+  
+    .last-part p {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      width: 455px;
+      height: 256px;
+      flex-basis: 40%;
+    }
+  
+    .sBottomNav ul {
+      flex-direction: row;
+    }
+  
+    .grid3:hover h2,
+    .grid3:hover p,
+    .grid3:hover ul {
+      visibility: hidden;
+    }
+  
+    .grid3:hover .buttonProperties {
+      visibility: visible;
+    }
+  
+    .aboutMe {
+      margin-top: 130px;
+      background-image: url('img/illustration-about\ me@2x.png');
+      background-repeat: no-repeat;
+      background-position: right top 30px;
+    }
+  
+    .bottom {
+      margin-left: 142px;
+    }
+  
+    .bottom div input {
+      visibility: visible;
+    }
+  
+    .line2 {
+      margin-top: 209px;
+      margin-bottom: 16px;
+      margin-left: 142px;
+      width: 1156px;
+      height: 1px;
+    }
+
+    .skills {
+      flex: 1;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .img-lan {
+      display: flex;
+      width: 400px;
+      justify-content: center;
+
+    }
+
+    .img-frame {
+      display: flex;
+      width: 400px;
+      justify-content: center;
+    }
+
+    .img-skill {
+      display: flex;
+      width: 400px;
+      justify-content: center;
+    }
+
+    .last-part {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 0;
+    }
+  
+    .form {
+      flex-basis: 60%;
+      padding-top: 120px;
+    }
+
+    .user-email {
+      width: 573px;
+    }
+  
+    .btn-ctr {
+      justify-content: left;
+      margin-left: 12px;
+    }
+  
+    .fwasa {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+  

@@ -29,6 +29,10 @@
   margin-bottom: 1px;
 }
 
+.topMenu {
+  display: none;
+}
+
 .mainContainer {
   display: flex;
   background-color: #1c1a19;
