@@ -492,6 +492,10 @@
   margin-top: 30px;
 }
 
+.last-name {
+  display: none;
+}
+
 .user-email {
   width: 327px;
   height: 50px;
