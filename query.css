@@ -230,5 +230,12 @@
       display: flex;
       align-items: baseline;
     }
+
+    .tech {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100vw;
+      padding: 150px 0;
+    }
   }
   
