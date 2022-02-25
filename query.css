@@ -96,12 +96,12 @@
   }
 
   .heading-line h2 {
-    font-family: "Crete Round";
+    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
     line-height: 52px;
-    color: #091E42;    
+    color: #091e42;
   }
 
   .h-line hr {
@@ -401,4 +401,3 @@
     display: flex;
   }
 }
-
