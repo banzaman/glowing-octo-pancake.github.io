@@ -115,7 +115,7 @@
     height: 100%;
   }
 
-  .grit-temp {
+  .grid-temp {
     display: grid;
     grid-template-columns: repeat(1, 300px);
     grid-template-rows: repeat(6, 435px);
