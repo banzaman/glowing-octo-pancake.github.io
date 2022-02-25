@@ -88,11 +88,20 @@
 
   .heading-line {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     min-height: 120px;
     margin-top: 100px;
     padding: 0 10%;
+  }
+
+  .heading-line h2 {
+    font-family: "Crete Round";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091E42;    
   }
 
   .h-line hr {
@@ -101,8 +110,9 @@
 
   .h-line-m {
     display: flex;
-    min-width: 200px;
     margin-top: 20px;
+    flex: 1;
+    margin-left: 10px;
   }
 
   .story-section {
@@ -111,8 +121,7 @@
   }
 
   .story-image img {
-    width: 100%;
-    height: 100%;
+    width: 45vw;
   }
 
   .grid-temp {
@@ -285,7 +294,7 @@
 
   .aboutMe {
     margin-top: 130px;
-    background-image: url("img/illustration-about\ me@2x.png");
+    background-image: url("img/about-background-image.png");
     background-repeat: no-repeat;
     background-position: right top 30px;
   }
@@ -387,4 +396,9 @@
     width: 100vw;
     padding: 150px 0;
   }
+
+  .welcome-section {
+    display: flex;
+  }
 }
+

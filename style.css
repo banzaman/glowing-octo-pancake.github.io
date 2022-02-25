@@ -309,9 +309,28 @@
   background-color: #1c1a19;
   padding-top: 120px;
   margin-top: 120px;
+  padding-left: 40px;
   background-image: url("img/bottomImg.png");
   background-repeat: no-repeat;
   background-position: right bottom 25px;
+}
+
+.aboutMe h2{
+font-family: "Crete Round";
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 81px;
+color: #F55800;
+}
+
+.aboutMe p{
+font-family: "Inter";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 32px;
+color: #F4F5F7;
 }
 
 .bottom {
