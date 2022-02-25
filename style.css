@@ -246,7 +246,7 @@
 .content-data {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/Img-Placeholder.png");
+  background-image: url("../img/Img-Placeholder.png");
   background-repeat: no-repeat, repeat;
   background-size: cover;
   width: 100%;
