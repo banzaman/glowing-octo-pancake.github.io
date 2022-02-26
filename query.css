@@ -403,6 +403,10 @@
     text-align: left;
   }
 
+  .skills ul li {
+    text-align: left;
+  }
+
   .welcome-section {
     display: flex;
   }
