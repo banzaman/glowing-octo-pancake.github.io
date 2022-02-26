@@ -344,7 +344,8 @@
     flex-direction: row;
     align-items: flex-start;
     margin-bottom: 0;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10%;
   }
 
   .form {
@@ -399,5 +400,9 @@
 
   .welcome-section {
     display: flex;
+  }
+
+  .embuza {
+    text-align: left;
   }
 }
