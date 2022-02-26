@@ -396,6 +396,7 @@
     justify-content: space-evenly;
     width: 100vw;
     padding: 150px 0;
+    text-align: left;
   }
 
   .welcome-section {
