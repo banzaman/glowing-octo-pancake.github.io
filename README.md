@@ -25,7 +25,7 @@ Additional description about the project and its features.
 
 ### Live Demo
 
-- link https://banzaman.github.io/glowing-octo-pancake.github.io/
+- LINK: https://banzaman.github.io/glowing-octo-pancake.github.io/
 
 
 ## Authors
