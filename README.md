@@ -23,6 +23,9 @@ Additional description about the project and its features.
 - Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/banzaman/glowing-octo-pancake`
 - On the terminal, navigate into the directory like so: `cd glowing-octo-pancake`
 
+### Live Demo
+
+- link https://banzaman.github.io/glowing-octo-pancake.github.io/
 
 
 ## Authors
