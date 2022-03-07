@@ -721,3 +721,49 @@
   padding-left: 10px;
   margin-top: 20px;
 }
+
+.menu {
+  background: #3c3a39;
+  color: #fff5e1;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 19px);
+  height: 100vh;
+}
+
+.menu-items ul li {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #6f6c6b;
+  list-style: none;
+}
+
+.menu-items ul li a {
+  color: #fff5e1;
+  text-decoration: none;
+}
+
+.close_btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.close_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.invisible {
+  display: none;
+}
+
+.close_btn:hover,
+.burger-icon:hover {
+  cursor: pointer;
+}
