@@ -759,10 +759,6 @@
   margin-bottom: 40px;
 }
 
-.invisible {
-  display: none;
-}
-
 .close_btn:hover,
 .burger-icon:hover {
   cursor: pointer;
