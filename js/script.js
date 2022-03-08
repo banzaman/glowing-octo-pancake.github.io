@@ -5,33 +5,12 @@ let close = document.querySelector(".close_btn");
 let portfolio = document.querySelector("#portfolio");
 let about = document.querySelector("#about");
 let contact = document.querySelector("#contact");
+let logo = document.querySelector(".header a");
 
-menu.addEventListener("click", () => {
-    close_menu();
-});
-
-close.addEventListener("click", () => {
-    close_menu();
-});
-
-portfolio.addEventListener("click", () => {
-    close_menu();
-});
-
-about.addEventListener("click", () => {
-    close_menu();
-});
-
-contact.addEventListener("click", () => {
-    close_menu();
-});
-
-const close_menu = () => {
-    menuBody.classList.toggle("mobile");
-};
 
 function toggle(menu){
     menu.classList.toggle('openMenu');
     const menuImg=document.querySelector('.imageHamburguer');
     menuImg.classList.toggle('imageIcon');
+    logo.classList.toggle('logo-active');
 }

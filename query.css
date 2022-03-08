@@ -21,6 +21,10 @@
     display: none;
   }
 
+  .imageHamburguer {
+    display: none;
+  }
+
   .topMenu {
     display: flex;
     align-items: center;
@@ -126,7 +130,7 @@
 
   .grid-temp {
     display: grid;
-    grid-template-columns: repeat(1, 300px);
+    grid-template-columns: repeat(3, 370px);
     grid-template-rows: repeat(6, 435px);
     grid-row-gap: 10px;
     margin-top: 10px;
@@ -319,7 +323,6 @@
     margin-top: 209px;
     margin-bottom: 16px;
     margin-left: 142px;
-    width: 1156px;
     height: 1px;
   }
 

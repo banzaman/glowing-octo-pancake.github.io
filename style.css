@@ -21,6 +21,10 @@
   text-decoration: none;
 }
 
+.logo-active {
+  display: none;
+}
+
 .header a:hover {
   color: black;
   font-size: 20px;
@@ -41,7 +45,7 @@
 .mainContainer {
   display: flex;
   background-color: #1c1a19;
-  height: 590px;
+  height: auto;
   top: 92px;
   background-image: url("img/Illustration.png");
   background-repeat: no-repeat;
@@ -168,11 +172,6 @@
   line-height: 52px;
 }
 
-.h-line hr {
-  width: 750px;
-  margin-left: 15px;
-}
-
 .story-section {
   display: flex;
   margin-top: 100px;
@@ -180,8 +179,8 @@
 }
 
 .story-image img {
-  width: 620px;
-  height: 435px;
+  width: 70%;
+  height: 70%;
 }
 
 .story-content {
@@ -548,7 +547,7 @@
 
 .grit-temp {
   display: grid;
-  grid-template-columns: repeat(3, 370px);
+  grid-template-columns: repeat(1fr);
   grid-template-rows: repeat(2, 435px);
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -558,7 +557,7 @@
 }
 
 .cart-1 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-1.png");
   background-repeat: no-repeat, repeat;
@@ -567,7 +566,7 @@
 
 .card-btn {
   height: 58px;
-  width: 369px;
+  width: 100%;
   background: #f55800;
   color: #fff;
   border: none;
@@ -580,7 +579,7 @@
 
 .card-btn:hover {
   height: 58px;
-  width: 369px;
+  width: 100%;
   background: #fff;
   color: #f55800;
   border: 1px solid #f55800;
@@ -592,7 +591,7 @@
 }
 
 .cart-2 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-2.png");
   background-repeat: no-repeat, repeat;
@@ -622,7 +621,7 @@
 }
 
 .cart-3 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-3.png");
   background-repeat: no-repeat, repeat;
@@ -647,7 +646,7 @@
 }
 
 .cart-4 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-4.png");
   background-repeat: no-repeat, repeat;
@@ -672,7 +671,7 @@
 }
 
 .cart-5 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-2.png");
   background-repeat: no-repeat, repeat;
@@ -697,7 +696,7 @@
 }
 
 .cart-6 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-3.png");
   background-repeat: no-repeat, repeat;
@@ -761,6 +760,9 @@
 .newMobile {
   display: none;
   position: absolute;
+  font: roboto;
+  font-weight: 700;
+  font-size: 45px;
   top: 50px;
   left: 0;
   height: calc(75vh - 50px);
@@ -776,4 +778,5 @@
 
 .imageIcon {
   content: url("./img/Icon\ -\ Cancel.png");
+  margin-left: 400%;
 }
