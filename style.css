@@ -722,7 +722,7 @@
   margin-top: 20px;
 }
 
-.menu {
+.mobile {
   background: #3c3a39;
   color: #fff5e1;
   font-size: 25px;
@@ -734,6 +734,7 @@
   left: 0;
   width: calc(100vw - 19px);
   height: 100vh;
+  display: none;
 }
 
 .menu-items ul li {
@@ -763,7 +764,4 @@
 .burger-icon:hover {
   cursor: pointer;
 }
-
-.invisible {
-  display: none;
-}
+  

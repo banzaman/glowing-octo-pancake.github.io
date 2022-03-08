@@ -27,5 +27,5 @@ contact.addEventListener("click", () => {
 });
 
 const close_menu = () => {
-    menuBody.classList.toggle("invisible");
+    menuBody.classList.toggle("mobile");
 };
