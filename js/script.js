@@ -29,3 +29,9 @@ contact.addEventListener("click", () => {
 const close_menu = () => {
     menuBody.classList.toggle("mobile");
 };
+
+function toggle(menu){
+    menu.classList.toggle('openMenu');
+    const menuImg=document.querySelector('.imageHamburguer');
+    menuImg.classList.toggle('imageIcon');
+}

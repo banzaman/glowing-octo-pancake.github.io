@@ -8,11 +8,12 @@
   display: flex;
   align-items: center;
   background-color: #3c3a39;
-  height: auto;
+  /* height: auto; */
   justify-content: space-between;
   flex: 1;
   padding-top: 16px;
   padding-bottom: 16px;
+  
 }
 
 .header a {
@@ -734,7 +735,7 @@
   left: 0;
   width: calc(100vw - 19px);
   height: 100vh;
-  display: none;
+  /* display: none; */
 }
 
 .menu-items ul li {
@@ -764,4 +765,22 @@
 .burger-icon:hover {
   cursor: pointer;
 }
-  
+  .newMobile{
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(75vh - 50px);
+  width: 100%;
+  }
+  .openMenu .newMobile{
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #3c3a39;
+ }
+ .imageIcon{
+   content:url("./img/Icon\ -\ Cancel.png");
+  /* padding-right: 30px;
+  padding-top: 30px; */
+ }

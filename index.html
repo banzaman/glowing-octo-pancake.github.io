@@ -15,26 +15,45 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="#">Rubanza Mark</a>
-          <a class="menu" href="#"
-            ><img src="img/IconMenu.png" alt="burger button"
-          /></a>
-          <nav class="topMenu d-flex flex-center">
-            <ul class="d-flex">
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">About</a>    
-                </li>
-                <li>
-                    <a href="#">Contact</a>                
-                </li>
+      <a class="logo" href="#">Rubanza Mark</a>
+    
+      <nav class="topMenu d-flex flex-center">
+        <ul class="d-flex">
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <a href="mailto:markrubanza10@gmail.com" class="mailIcon">
+          <img src="img/Icon - Mail.png" alt="mailIcon">
+        </a>
+      </nav>
+      <!-- <div class="mobile" onclick="toggle(this)"></div> -->
+      <div onclick="toggle(this)">
+        <div>
+          <!-- <a class="menu" href="#"><img src="img/IconMenu.png" alt="burger button" /></a> -->
+          <a href="#"><img class="imageHamburguer" src="img/IconMenu.png" alt="burger button" /></a>
+          <ul class="newMobile">
+            <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+            <li id="about"><a href="#about-section">About</a></li>
+            <li id="contact"><a href="#contact-section">Contact</a></li>
+          </ul>
+          <!-- <div class="close_btn"><img src="img/Icon - Cancel.png" alt="close Icon"></div>
+          <div class="menu-items">
+            <ul>
+              <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+              <li id="about"><a href="#about-section">About</a></li>
+              <li id="contact"><a href="#contact-section">Contact</a></li>
             </ul>
-            <a href="mailto:markrubanza10@gmail.com" class="mailIcon">
-                <img src="img/Icon - Mail.png" alt="mailIcon">
-            </a>
-      </header>
+          </div> -->
+        </div> 
+    
+    </header>
       <main>
         <section class="mainContainer">
           <div class="informativeText">
@@ -225,16 +244,7 @@
             <a href="https://twitter.com/banzamarq10"><i class="fab fa-twitter"></i></a>
             <a href="https://medium.com/"><i class="fab fa-medium-m"></i></a>
           </footer>
-          <div class="mobile">
-            <div class="close_btn"><img src="img/Icon - Cancel.png" alt="close Icon"></div>
-            <div class="menu-items">
-              <ul>
-                <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
-                <li id="about"><a href="#about-section">About</a></li>
-                <li id="contact"><a href="#contact-section">Contact</a></li>
-              </ul>
-            </div>
-          </div>
+          
         </section>
 </body>
 </html>
