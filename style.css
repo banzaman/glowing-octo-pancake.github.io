@@ -780,3 +780,100 @@
   content: url("./img/Icon\ -\ Cancel.png");
   margin-left: 400%;
 }
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+}
+
+.pop-body {
+  background: #fff;
+  width: 85%;
+  padding: 20px;
+}
+
+.popheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popheading h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #172b4d;
+}
+
+.popheading img {
+  width: 15px;
+  height: 15px;
+  margin: auto 0;
+}
+
+.pop-img-p {
+  display: flex;
+  margin-top: 30px;
+  flex: 1;
+}
+
+.popup-img {
+  display: flex;
+  flex: 1.5;
+}
+
+.popup-img img {
+  width: 100%;
+}
+
+.p-btn {
+  width: auto;
+  display: block;
+  flex: 1;
+}
+
+.paragraph p {
+  margin-left: 15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.popbtn {
+  display: flex;
+  align-self: flex-end;
+  margin: 190px 0 0 15px;
+  height: 53px;
+}
+
+.popbtn ul {
+  list-style: none;
+  display: flex;
+  height: auto;
+}
+
+.popbtn ul li {
+  margin-right: 10px;
+}
+
+.btn-img {
+  margin-left: 15px;
+}

@@ -128,15 +128,6 @@
     width: 45vw;
   }
 
-  .grid-temp {
-    display: grid;
-    grid-template-columns: repeat(3, 370px);
-    grid-template-rows: repeat(6, 435px);
-    grid-row-gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-  }
-
   .cart-1 {
     width: 100%;
     height: 435px;
@@ -149,6 +140,7 @@
     height: 58px;
     width: 100%;
     background: #f55800;
+    filter: contrast(9);
     color: #fff;
     border: none;
     font-family: 'Inter', sans-serif;
@@ -164,11 +156,37 @@
     background: #fff;
     color: #f55800;
     border: 1px solid #f55800;
+    filter: contrast(9);
     font-family: 'Inter', sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
     margin-top: 377px;
+  }
+
+  .card-btn-2 {
+    height: 58px;
+    width: 100%;
+    background: #f55800;
+    color: #fff;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 21px;
+  }
+
+  .card-btn-2:hover {
+    height: 58px;
+    width: 100%;
+    background: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
   }
 
   .cart-2 {
@@ -184,7 +202,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .cart-2 p {
@@ -193,7 +211,7 @@
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 210px;
   }
 
   .cart-3 {
@@ -425,5 +443,26 @@
 
   .embuza {
     text-align: left;
+  }
+
+  .popup {
+    overflow: scroll;
+  }
+
+  .pop-img-p {
+    display: block;
+  }
+
+  .pop-img img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .popbtn {
+    display: flex;
+    align-self: flex-end;
+    margin: 20px 0 0 15px;
+    height: 53px;
   }
 }

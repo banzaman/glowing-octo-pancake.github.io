@@ -1,0 +1,98 @@
+<div class="grid-temp">
+        <div class="r1-c1">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn-2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="r1-c2">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="r1-c3">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="r2-c1">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="r2-c2">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+        <div class="r2-c3">
+          <div class="pro-art-paint">
+            <div class="content-data">
+              <h1>Professional Art Printing Data</h1>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
+              <div class="lang-btn2">
+                <ul>
+                  <li><button type="button">Html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <button type="button" class="content-data-btn">See Project</button>
+            </div>
+          </div>
+        </div>
+      </div>
