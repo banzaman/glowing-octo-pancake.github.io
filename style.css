@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   background-color: #3c3a39;
-  height: auto;
   justify-content: space-between;
   flex: 1;
   padding-top: 16px;
@@ -16,10 +15,14 @@
 }
 
 .header a {
-  color: #fff;
+  color: rgb(240, 236, 236);
   font-family: "Roboto", sans-serif;
   margin-left: 24px;
   text-decoration: none;
+}
+
+.logo-active {
+  display: none;
 }
 
 .header a:hover {
@@ -42,7 +45,7 @@
 .mainContainer {
   display: flex;
   background-color: #1c1a19;
-  height: 590px;
+  height: auto;
   top: 92px;
   background-image: url("img/Illustration.png");
   background-repeat: no-repeat;
@@ -169,11 +172,6 @@
   line-height: 52px;
 }
 
-.h-line hr {
-  width: 750px;
-  margin-left: 15px;
-}
-
 .story-section {
   display: flex;
   margin-top: 100px;
@@ -181,8 +179,8 @@
 }
 
 .story-image img {
-  width: 620px;
-  height: 435px;
+  width: 70%;
+  height: 70%;
 }
 
 .story-content {
@@ -549,7 +547,6 @@
 
 .grit-temp {
   display: grid;
-  grid-template-columns: repeat(3, 370px);
   grid-template-rows: repeat(2, 435px);
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -559,7 +556,7 @@
 }
 
 .cart-1 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-1.png");
   background-repeat: no-repeat, repeat;
@@ -568,7 +565,7 @@
 
 .card-btn {
   height: 58px;
-  width: 369px;
+  width: 100%;
   background: #f55800;
   color: #fff;
   border: none;
@@ -581,7 +578,7 @@
 
 .card-btn:hover {
   height: 58px;
-  width: 369px;
+  width: 100%;
   background: #fff;
   color: #f55800;
   border: 1px solid #f55800;
@@ -593,7 +590,7 @@
 }
 
 .cart-2 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-2.png");
   background-repeat: no-repeat, repeat;
@@ -623,7 +620,7 @@
 }
 
 .cart-3 {
-  max-width: 370px;
+  max-width: 80%;
   height: 435px;
   background-image: url("../img/card-3.png");
   background-repeat: no-repeat, repeat;
@@ -648,7 +645,7 @@
 }
 
 .cart-4 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-4.png");
   background-repeat: no-repeat, repeat;
@@ -673,7 +670,7 @@
 }
 
 .cart-5 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-2.png");
   background-repeat: no-repeat, repeat;
@@ -698,7 +695,7 @@
 }
 
 .cart-6 {
-  width: 370px;
+  width: 80%;
   height: 435px;
   background-image: url("../img/card-3.png");
   background-repeat: no-repeat, repeat;
@@ -720,4 +717,66 @@
   color: #fff;
   padding-left: 10px;
   margin-top: 20px;
+}
+
+.mobile {
+  background: #3c3a39;
+  color: #fff5e1;
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(100vw - 19px);
+  height: 100vh;
+}
+
+.peakMobile ul li {
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #6f6c6b;
+  list-style: none;
+}
+
+.close_btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.close_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.close_btn:hover,
+.burger-icon:hover {
+  cursor: pointer;
+}
+
+.newMobile {
+  display: none;
+  position: absolute;
+  font-family: 'roboto', sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  top: 50px;
+  left: 0;
+  height: calc(75vh - 50px);
+  width: 100%;
+}
+
+.openMenu .newMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #3c3a39;
+  height: 100vh;
+}
+
+.imageIcon {
+  content: url("./img/Icon\ -\ Cancel.png");
+  margin-left: 400%;
 }
