@@ -773,6 +773,7 @@
   flex-direction: column;
   justify-content: flex-start;
   background: #3c3a39;
+  height: 100vh;
 }
 
 .imageIcon {
