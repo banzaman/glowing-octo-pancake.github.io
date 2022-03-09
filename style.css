@@ -547,7 +547,6 @@
 
 .grit-temp {
   display: grid;
-  grid-template-columns: repeat(1fr);
   grid-template-rows: repeat(2, 435px);
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -760,7 +759,7 @@
 .newMobile {
   display: none;
   position: absolute;
-  font: roboto;
+  font-family: 'roboto', sans-serif;
   font-weight: 700;
   font-size: 45px;
   top: 50px;
