@@ -450,7 +450,8 @@
   }
 
   .pop-img-p {
-    display: block;
+    display: flex;
+    /* display: block; */
   }
 
   .pop-img img {
