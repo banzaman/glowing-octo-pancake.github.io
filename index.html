@@ -6,17 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+      </style>
+    <link rel="stylesheet" href="query.css" />
+    <script src="js/script.js" defer></script>
     <title>My Portfolio</title>
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="#">Rubanza Mark</a>
-        <nav>
-          <a class="menu" href="#"
-            ><img src="img/IconMenu.png" alt="IconMenu"
-          /></a>
-        </nav>
-      </header>
+      <a class="logo" href="#">Rubanza Mark</a>
+      <nav class="topMenu d-flex flex-center">
+        <ul class="d-flex">
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <a href="mailto:markrubanza10@gmail.com" class="mailIcon">
+          <img src="img/Icon - Mail.png" alt="mailIcon">
+        </a>
+      </nav>
+      <div onclick="toggle(this)">
+        <div class="peakMobile">
+          <a href="#"><img class="imageHamburguer" src="img/IconMenu.png" alt="burger button" /></a>
+          <ul class="newMobile">
+            <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+            <li id="about"><a href="#about-section">About</a></li>
+            <li id="contact"><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div> 
+    </header>
       <main>
         <section class="mainContainer">
           <div class="informativeText">
@@ -61,342 +86,38 @@
             </ul>
           </div>
         </section>
-        <section class="works">
-          <div class="grid">
-            <div class="gridItem grid1 d-flex flex-center">
-              <h2>My Recent Works</h2>
-              <img alt="line" src="img/line1.png" />
+        <section id="portfolio-section" class="works">
+          <div class="heading-line">
+            <h2>My Recent works</h2>
+          </div>  
+          <div class="story-section">
+            <div class="welcome-section"> <div class="story-image">
+              <img src="img/st-img.png" alt="st-imag">
             </div>
-            <div class="gridItem grid2 d-flex flex-center">
-              <img alt="project images" src="img/ImgPlaceholder.png" />
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized<br />
-                reads; no accounts or sign-ups required.<br />
-                has been the industry's standard dummy<br />
-                text ever since the 1500s, when an<br />
-                unknown printer took a standard dummy <br />text.
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img alt="cssButton" src="img/cssTag.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img alt="htmlButton" src="img/htmlTag.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img alt="bootstrapButton" src="img/bootstrapTag.png" />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img alt="rubyButton" src="img/rubyTag.png" />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img alt="seeProjectButton" src="img/Enabled.png" />
-              </a>
-            </div>
-            <div class="gridItem grid3 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="rubyButton"
-                      src="img/rubyTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
-            <div class="gridItem grid4 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="rubyButton"
-                      src="img/rubyTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
-            <div class="gridItem grid5 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="rubyButton"
-                      src="img/rubyTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
-            <div class="gridItem grid6 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="img/rubyTransparent.png"
-                      alt="rubyButton"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
-            <div class="gridItem grid7 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="rubyButton"
-                      src="img/rubyTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
-            <div class="gridItem grid8 backGroundImg">
-              <h2>
-                Profesional Art<br />
-                Printing Data
-              </h2>
-              <p>
-                A daily selection of privately<br />
-                personalized reads; no accounts or<br />
-                sign-ups required. has been the<br />
-                industry's standard
-              </p>
-              <ul class="d-flex">
-                <li>
-                  <a href="#">
-                    <img
-                      alt="htmlButton"
-                      src="img/htmlTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="bootstrapButton"
-                      src="img/bootstrapTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      alt="rubyButton"
-                      src="img/rubyTransparent.png"
-                      class="buttonPropertiesWorks"
-                    />
-                  </a>
-                </li>
-              </ul>
-              <a href="#">
-                <img
-                  alt="seeProjectButton"
-                  src="img/Action.png"
-                  class="buttonProperties"
-                />
-              </a>
-            </div>
+            <div class="story-content">
+              <div class="h2-tag"><h2>Multi-Post Stories</h2></div>
+              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
+            
+              <div class="lang-btn">
+                <ul>
+                  <li><button type="button">css</button></li>
+                  <li><button type="button">html</button></li>
+                  <li><button type="button">bootstrap</button></li>
+                  <li><button type="button">Ruby</button></li>
+                </ul>
+              </div>
+              <div class="see-prjct-btn">
+                <button id="button1" type="button">See Project</button>
+              </div>
+            </div></div>
           </div>
-        </section>
-        <section class="aboutMe">
-          <div class="d-flex bottom flex-center">
+          <div class="grit-temp" id="cartsContainer"></div>
+          </section>
+          <section class="aboutMe">
+            <div id="about-section" class="d-flex bottom flex-center">
+            </div>
             <h2>About me</h2>
-            <p>
+            <p class="allam">
               Hello I’m a software developer! I can help<br />
               you build a product, feature or website<br />
               Look through some of my work and<br />
@@ -411,7 +132,7 @@
           <img alt="division" src="img/line2.png" class="line2" />
         </section>
         <section class="skills d-flex">
-          <ul>
+          <ul class="tech">
             <li>
               <h2 class="lan">Language</h2>
               <ul class="eniimi">
@@ -444,7 +165,7 @@
           </ul>
         </section>
         <section>
-          <div class="last-part">
+          <div id="contact-section" class="last-part">
             <article class="embuza">
               I'm always<br />
               interested in hearing<br />
@@ -453,20 +174,25 @@
               chat please get in<br />
               touch.
             </article>
-            <form action="https://formspree.io/f/mjvlgber" method="post" class="form">
-                  <input type="text" name="full name" placeholder="Full name" maxlength="30" class="user-name"required />
-                  <input type="email" name="email" placeholder="Email address" class="user-email"required />
-                  <textarea id="msg" name="message" placeholder="Enter text here" maxlength="500" class="user-message" required></textarea>
+            <form action="https://formspree.io/f/mjvlgber" method="post" class="form" id="form">
+                  <div class="names">
+                    <input type="text" name="full name" placeholder="Full name" maxlength="30" id="name" class="user-name"required />
+                    <input type="text" name="last name" placeholder="Last name" maxlength="30" class="last-name"required />
+                  </div>
+                  <input type="email" name="email" placeholder="Email address" id="eml" class="user-email"required />
+                  <textarea id="msg" name="message" placeholder="Enter text here" maxlength="500" id="msg" class="user-message" required></textarea>
+                  <p id="invalidText"></p>
                   <input type="submit" class="buttons" value="Get in touch">
             </form>
-            <footer class="timbagano">
-                <a href="https://github.com/banzaman"><i class="fab fa-github"></i></a>
-               <a href= "#"><i class="fab fa-linkedin"></i></a>
-               <a href="#"><i class="fab fa-angellist"></i></a>
-                <a href="https://twitter.com/banzamarq10"><i class="fab fa-twitter"></i></a>
-                <a href="https://medium.com/"><i class="fab fa-medium-m"></i></a>
-            </footer>
-     </div>
+          </div>
+          <footer class="timbagano">
+            <a href="https://github.com/banzaman"><i class="fab fa-github"></i></a>
+           <a href= "#"><i class="fab fa-linkedin"></i></a>
+           <a href="#"><i class="fab fa-angellist"></i></a>
+            <a href="https://twitter.com/banzamarq10"><i class="fab fa-twitter"></i></a>
+            <a href="https://medium.com/"><i class="fab fa-medium-m"></i></a>
+          </footer>
         </section>
+        <section class="sectionPopup"></section>
 </body>
 </html>
