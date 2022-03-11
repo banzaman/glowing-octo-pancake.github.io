@@ -174,13 +174,14 @@
               chat please get in<br />
               touch.
             </article>
-            <form action="https://formspree.io/f/mjvlgber" method="post" class="form">
+            <form action="https://formspree.io/f/mjvlgber" method="post" class="form" id="form">
                   <div class="names">
-                    <input type="text" name="full name" placeholder="Full name" maxlength="30" class="user-name"required />
+                    <input type="text" name="full name" placeholder="Full name" maxlength="30" id="name" class="user-name"required />
                     <input type="text" name="last name" placeholder="Last name" maxlength="30" class="last-name"required />
                   </div>
-                  <input type="email" name="email" placeholder="Email address" class="user-email"required />
-                  <textarea id="msg" name="message" placeholder="Enter text here" maxlength="500" class="user-message" required></textarea>
+                  <input type="email" name="email" placeholder="Email address" id="eml" class="user-email"required />
+                  <p id="invalidText"></p>
+                  <textarea id="msg" name="message" placeholder="Enter text here" maxlength="500" id="msg" class="user-message" required></textarea>
                   <input type="submit" class="buttons" value="Get in touch">
             </form>
           </div>
