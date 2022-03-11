@@ -790,6 +790,7 @@
   left: 0;
   z-index: 100;
 }
+
 .popup {
   display: flex;
   justify-content: center;
@@ -838,7 +839,6 @@
 .pop-img-p {
   display: flex;
   margin-top: 30px;
-  /* flex: 1; */
 }
 
 .popup-img {
