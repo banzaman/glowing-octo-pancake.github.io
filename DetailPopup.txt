@@ -23,8 +23,8 @@
                 </div>
                 <div class="popbtn">
                   <ul>
-                    <li><button class="submit" type="submit" value="See Live">See Live<img src="img/Enable.png" alt="" class="btn-img"></button></li>
-                    <li><button class="submit" type="submit" >See Source<img src="img/Enable.svg" alt="" class="btn-img"></button></li>
+                    <li><button class="submit" type="submit" value="See Live"><a class="live-link" href="">See Live</a><img src="img/Icon.png" alt="" class="btn-img"></button></li>
+                    <li><button class="submit" type="submit" ><a class="live-link" href="https://github.com/banzaman/glowing-octo-pancake.github.io">See Source</a><img src="img/Vector.png" alt="" class="btn-img"></button></li>
                   </ul>
                 </div>
               </div>

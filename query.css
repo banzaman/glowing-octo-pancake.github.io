@@ -7,7 +7,7 @@
   }
 
   .name {
-    font-family: "Inter", sans-serif !important;
+    font-family: Inter, sans-serif !important;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -38,7 +38,7 @@
   }
 
   .topMenu ul a {
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 15px;
     width: fit-content;
@@ -143,7 +143,7 @@
     filter: contrast(9);
     color: #fff;
     border: none;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -157,7 +157,7 @@
     color: #f55800;
     border: 1px solid #f55800;
     filter: contrast(9);
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -170,7 +170,7 @@
     background: #f55800;
     color: #fff;
     border: none;
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -183,7 +183,7 @@
     background: #fff5e1;
     color: #f55800;
     border: 1px solid #f55800;
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -197,7 +197,7 @@
   }
 
   .cart-2 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -206,7 +206,7 @@
   }
 
   .cart-2 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -222,7 +222,7 @@
   }
 
   .cart-3 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -231,7 +231,7 @@
   }
 
   .cart-3 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -247,7 +247,7 @@
   }
 
   .cart-4 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -256,7 +256,7 @@
   }
 
   .cart-4 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -272,7 +272,7 @@
   }
 
   .cart-5 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -281,7 +281,7 @@
   }
 
   .cart-5 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -297,7 +297,7 @@
   }
 
   .cart-6 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -306,7 +306,7 @@
   }
 
   .cart-6 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -451,6 +451,8 @@
 
   .pop-img-p {
     display: flex;
+    flex-direction: row;
+
     /* display: block; */
   }
 
@@ -462,8 +464,11 @@
 
   .popbtn {
     display: flex;
-    align-self: flex-end;
-    margin: 20px 0 0 15px;
-    height: 53px;
+    align-self: flex-start;
+    padding-bottom: 0;
+  }
+
+  .popup-img img {
+    width: 50vw;
   }
 }
