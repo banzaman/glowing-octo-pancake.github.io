@@ -451,19 +451,28 @@
 
   .pop-img-p {
     display: flex;
+    flex-direction: row;
     /* display: block; */
   }
 
   .pop-img img {
-    max-width: 100%;
+    width: 50%;
     max-height: 100%;
     display: block;
   }
 
   .popbtn {
     display: flex;
-    align-self: flex-end;
-    margin: 20px 0 0 15px;
-    height: 53px;
+    /* align-self: flex-end; */
+    /* margin: 20px 0 0 15px;
+    height: 53px; */
   }
+
+  paragraph p {
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #344563;
+  }  
 }

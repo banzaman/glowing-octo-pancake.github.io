@@ -789,15 +789,16 @@
   top: 10%;
   left: 0;
   z-index: 100;
+  overflow: scroll;
 }
+
 .popup {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   left: 0;
   background-color: rgba(0, 0, 0, 0.5);
-   top: 20%;
+  top: 10%;
 }
 
 .popup::before {
@@ -851,15 +852,14 @@
 .popup-img img {
   /* width: 60%; */
   width: 659px;
-  height: 448px;
+  height: 100%;
 }
 
 .p-btn {
   width: auto;
-  width: auto;
   display: flex;
   flex-direction: column;
-  JUSTIFY-CONTENT: space-between;
+  justify-content: space-between;
 }
 
 .paragraph p {
@@ -876,10 +876,11 @@
   margin: 190px 0 0 15px;
   height: 53px; */
 
-  display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
-padding: 12px;
+padding: 0%;
+/* padding: 12px; */
 }
 
 .popbtn ul {
