@@ -69,6 +69,14 @@
     align-items: center;
   }
 
+  .paragraph p {
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #344563;
+  }
+
   .informativeText {
     margin-left: 40px;
   }
@@ -469,12 +477,4 @@
   .popup-img img {
     width: 50vw;
   }
-
-  paragraph p {
-    margin-left: 15px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    color: #344563;
-  }  
 }
