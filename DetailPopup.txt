@@ -13,7 +13,7 @@
             </div>
             <div class="pop-img-p">
               <div class="popup-img">
-                <img src="img/Snapshoot Portfolio.png" alt="">
+                <img src="img/Snap.png" alt="">
               </div>
               <div class="p-btn">
                 <div class="paragraph">
