@@ -7,7 +7,7 @@
   }
 
   .name {
-    font-family: "Inter", sans-serif !important;
+    font-family: Inter, sans-serif !important;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
@@ -18,6 +18,10 @@
   }
 
   .menu {
+    display: none;
+  }
+
+  .imageHamburguer {
     display: none;
   }
 
@@ -34,7 +38,7 @@
   }
 
   .topMenu ul a {
-    font-family: "Inter", sans-serif;
+    font-family: Inter, sans-serif;
     font-weight: 600;
     font-size: 15px;
     width: fit-content;
@@ -63,6 +67,14 @@
     gap: 15px;
     width: 4vw;
     align-items: center;
+  }
+
+  .paragraph p {
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #344563;
   }
 
   .informativeText {
@@ -124,15 +136,6 @@
     width: 45vw;
   }
 
-  .grid-temp {
-    display: grid;
-    grid-template-columns: repeat(1, 300px);
-    grid-template-rows: repeat(6, 435px);
-    grid-row-gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 100px;
-  }
-
   .cart-1 {
     width: 100%;
     height: 435px;
@@ -145,9 +148,10 @@
     height: 58px;
     width: 100%;
     background: #f55800;
+    filter: contrast(9);
     color: #fff;
     border: none;
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
@@ -160,11 +164,37 @@
     background: #fff;
     color: #f55800;
     border: 1px solid #f55800;
-    font-family: 'Inter', sans-serif;
+    filter: contrast(9);
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 700;
     text-align: center;
     margin-top: 377px;
+  }
+
+  .card-btn-2 {
+    height: 58px;
+    width: 100%;
+    background: #f55800;
+    color: #fff;
+    border: none;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 21px;
+  }
+
+  .card-btn-2:hover {
+    height: 58px;
+    width: 100%;
+    background: #fff5e1;
+    color: #f55800;
+    border: 1px solid #f55800;
+    font-family: Inter, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
   }
 
   .cart-2 {
@@ -175,21 +205,21 @@
   }
 
   .cart-2 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 180px;
+    margin-top: 140px;
   }
 
   .cart-2 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 210px;
   }
 
   .cart-3 {
@@ -200,7 +230,7 @@
   }
 
   .cart-3 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -209,7 +239,7 @@
   }
 
   .cart-3 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -225,7 +255,7 @@
   }
 
   .cart-4 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -234,7 +264,7 @@
   }
 
   .cart-4 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -250,7 +280,7 @@
   }
 
   .cart-5 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -259,7 +289,7 @@
   }
 
   .cart-5 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -275,7 +305,7 @@
   }
 
   .cart-6 h2 {
-    font-family: 'Crete Round', serif;
+    font-family: "Crete Round", serif;
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -284,7 +314,7 @@
   }
 
   .cart-6 p {
-    font-family: 'Inter', sans-serif;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     font-weight: 400;
     color: #fff;
@@ -319,7 +349,6 @@
     margin-top: 209px;
     margin-bottom: 16px;
     margin-left: 142px;
-    width: 1156px;
     height: 1px;
   }
 
@@ -422,5 +451,30 @@
 
   .embuza {
     text-align: left;
+  }
+
+  .popup {
+    overflow: scroll;
+  }
+
+  .pop-img-p {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pop-img img {
+    width: 50%;
+    max-height: 100%;
+    display: block;
+  }
+
+  .popbtn {
+    display: flex;
+    align-self: flex-start;
+    padding-bottom: 0;
+  }
+
+  .popup-img img {
+    width: 50vw;
   }
 }

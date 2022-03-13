@@ -10,30 +10,39 @@
       @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
       </style>
     <link rel="stylesheet" href="query.css" />
+    <script src="js/script.js" defer></script>
     <title>My Portfolio</title>
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="#">Rubanza Mark</a>
-          <a class="menu" href="#"
-            ><img src="img/IconMenu.png" alt="burger button"
-          /></a>
-          <nav class="topMenu d-flex flex-center">
-            <ul class="d-flex">
-                <li>
-                    <a href="#">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#">About</a>    
-                </li>
-                <li>
-                    <a href="#">Contact</a>                
-                </li>
-            </ul>
-            <a href="mailto:markrubanza10@gmail.com" class="mailIcon">
-                <img src="img/Icon - Mail.png" alt="mailIcon">
-            </a>
-      </header>
+      <a class="logo" href="#">Rubanza Mark</a>
+      <nav class="topMenu d-flex flex-center">
+        <ul class="d-flex">
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <a href="mailto:markrubanza10@gmail.com" class="mailIcon">
+          <img src="img/Icon-Mail.png" alt="mailIcon">
+        </a>
+      </nav>
+      <div onclick="toggle(this)">
+        <div class="peakMobile">
+          <a href="#"><img class="imageHamburguer" src="img/IconMenu.png" alt="burger button" /></a>
+          <ul class="newMobile">
+            <li id="portfolio"><a href="#portfolio-section">Portfolio</a></li>
+            <li id="about"><a href="#about-section">About</a></li>
+            <li id="contact"><a href="#contact-section">Contact</a></li>
+          </ul>
+        </div> 
+      </div>
+    </header>
       <main>
         <section class="mainContainer">
           <div class="informativeText">
@@ -78,11 +87,9 @@
             </ul>
           </div>
         </section>
-        <section class="works">
+        <section id="portfolio-section" class="works">
           <div class="heading-line">
             <h2>My Recent works</h2>
-            <div class="h-line"><hr></div>
-            <hr class="h-line-m">
           </div>  
           <div class="story-section">
             <div class="welcome-section"> <div class="story-image">
@@ -101,53 +108,14 @@
                 </ul>
               </div>
               <div class="see-prjct-btn">
-                <button type="button">See Project</button>
+                <button id="button1" type="button">See Project</button>
               </div>
             </div></div>
           </div>
-          <div class="grit-temp">
-            <div class="cart-1">
-              <button class="card-btn">See Project</button>
-            </div>
-            <div class="cart-2">
-              <h2>Data Dashboard healthcare</h2>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-              <div class="card-btn-off">
-                <img src="img/Tags.png" alt="tags">
-              </div>
-            </div>
-            <div class="cart-3">
-              <h2>Website Portfolio</h2>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-              <div class="card-btn-off">
-                <img src="img/Tags.png" alt="tags">
-              </div>
-            </div>
-            <div class="cart-4">
-              <h2>Profesional Art <br>Printing Data More</h2>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-              <div class="card-btn-off">
-                <img src="img/Tags.png" alt="tags">
-              </div>
-            </div>
-            <div class="cart-5">
-              <h2>Data Dashboard healthcare</h2>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-              <div class="card-btn-off">
-                <img src="img/Tags.png" alt="tags">
-              </div>
-            </div>
-            <div class="cart-6">
-              <h2>Website Portfolio</h2>
-              <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-              <div class="card-btn-off">
-                <img src="img/Tags.png" alt="tags">
-              </div>
-            </div>
-          </div>
+          <div class="grit-temp" id="cartsContainer"></div>
           </section>
           <section class="aboutMe">
-            <div class="d-flex bottom flex-center">
+            <div id="about-section" class="d-flex bottom flex-center">
             </div>
             <h2>About me</h2>
             <p class="allam">
@@ -161,9 +129,8 @@
             <a href="#">
               <img alt="resume" src="img/Resume.png" />
             </a>
-          </div>
+          </section>
           <img alt="division" src="img/line2.png" class="line2" />
-        </section>
         <section class="skills d-flex">
           <ul class="tech">
             <li>
@@ -198,7 +165,7 @@
           </ul>
         </section>
         <section>
-          <div class="last-part">
+          <div id="contact-section" class="last-part">
             <article class="embuza">
               I'm always<br />
               interested in hearing<br />
@@ -208,11 +175,11 @@
               touch.
             </article>
             <form action="https://formspree.io/f/mjvlgber" method="post" class="form">
-                  <div class="names">
-                    <input type="text" name="full name" placeholder="Full name" maxlength="30" class="user-name"required />
-                    <input type="text" name="last name" placeholder="Last name" maxlength="30" class="last-name"required />
-                  </div>
-                  <input type="email" name="email" placeholder="Email address" class="user-email"required />
+                <div class="names">
+                    <input type="text" name="full name" placeholder="Full name" maxlength="30" class="user-name" required />
+                    <input type="text" name="last name" placeholder="Last name" maxlength="30" class="last-name" required />
+                </div>
+                  <input type="email" name="email" placeholder="Email address" class="user-email" required />
                   <textarea id="msg" name="message" placeholder="Enter text here" maxlength="500" class="user-message" required></textarea>
                   <input type="submit" class="buttons" value="Get in touch">
             </form>
@@ -225,5 +192,7 @@
             <a href="https://medium.com/"><i class="fab fa-medium-m"></i></a>
           </footer>
         </section>
-</body>
+      </main>
+      <section class="sectionPopup"></section>
+ </body>
 </html>
