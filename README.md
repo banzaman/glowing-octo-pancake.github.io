@@ -33,7 +33,7 @@ Additional description about the project and its features.
 
 - GitHub: [Banzaman](https://github.com/banzaman)
 - Twitter: [@banzamarq25](https://twitter.com/banzamarq10)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mark-rubanza-anderson-4399a2211/)
+- LinkedIn: [Mark Rubanza Anderson](https://www.linkedin.com/in/mark-rubanza-anderson-4399a2211/)
 
 
 ## 🤝 Contributing
