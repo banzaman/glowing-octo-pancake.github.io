@@ -25,7 +25,7 @@ Additional description about the project and its features.
 
 # Deployment
 
-### LINK:  https://banzaman.github.io/glowing-octo-pancake.github.io/
+### LINK: [here](https://banzaman.github.io/glowing-octo-pancake.github.io/)
 
 ## Authors
 
