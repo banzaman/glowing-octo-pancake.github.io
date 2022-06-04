@@ -22,6 +22,7 @@ Additional description about the project and its features.
 - In your local PC, open your terminal in the folder you would like to clone the project.
 - Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/banzaman/glowing-octo-pancake`
 - On the terminal, navigate into the directory like so: `cd glowing-octo-pancake`
+- Happy Review
 
 # Deployment
 
