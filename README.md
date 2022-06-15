@@ -5,7 +5,7 @@
 >This is my first portfolio skeleton.
 
 
-Additional description about the project and its features.
+
 
 ## Built With
 
