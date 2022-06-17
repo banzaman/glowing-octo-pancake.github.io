@@ -5,12 +5,11 @@
 >This is my first portfolio skeleton.
 
 
-
-
 ## Built With
 
 - HTML
 - CSS
+- JAVASCRIPT
 
 ## Getting Started
 
